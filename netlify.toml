@@ -1,0 +1,32 @@
+[build]
+  publish = "site"
+
+[[redirects]]
+  from = "/procedures-offered"
+  to = "/procedures-offered/"
+  status = 301
+
+[[redirects]]
+  from = "/practice-locations"
+  to = "/practice-locations/"
+  status = 301
+
+[[redirects]]
+  from = "/private-appointments"
+  to = "/private-appointments/"
+  status = 301
+
+[[redirects]]
+  from = "/contact-me"
+  to = "/contact-me/"
+  status = 301
+
+[[redirects]]
+  from = "/thank-you"
+  to = "/thank-you/"
+  status = 301
+
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
